@@ -17,4 +17,5 @@ class KhachHang {
         "\n" +
         "Ma Cong To Dien: ${this.maSoCongToDien}");
   }
+  void tinhTienDien() {}
 }
