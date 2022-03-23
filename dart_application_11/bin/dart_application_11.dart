@@ -12,4 +12,5 @@ void main() {
       chiSoMoi: 30);
 
   khachhang1.thongTinKhachHang();
+  khachhang1.tinhTienDien();
 }
