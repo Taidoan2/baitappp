@@ -22,5 +22,8 @@ class BienLai extends KhachHang {
         "Chi so cu: ${this.chiSoCu}");
   }
 
-  double tinhTienDien() => (this.chiSoMoi! - this.chiSoCu!) * 5;
+  void tinhTienDien() {
+    double sum = 0;
+    sum = (this.chiSoMoi! - this.chiSoCu!) * 5;
+    print("Tien Dien Can Thanh Toan la: $sum");
 }
